@@ -78,6 +78,7 @@ export class SecretDbControllerBase {
         id: true,
         updatedAt: true,
         userId: true,
+        username: true,
       },
     });
   }
@@ -117,6 +118,7 @@ export class SecretDbControllerBase {
         id: true,
         updatedAt: true,
         userId: true,
+        username: true,
       },
     });
     return results.map((result) => permission.filter(result));
@@ -155,6 +157,7 @@ export class SecretDbControllerBase {
         id: true,
         updatedAt: true,
         userId: true,
+        username: true,
       },
     });
     if (result === null) {
@@ -214,6 +217,7 @@ export class SecretDbControllerBase {
           id: true,
           updatedAt: true,
           userId: true,
+          username: true,
         },
       });
     } catch (error) {
@@ -253,6 +257,7 @@ export class SecretDbControllerBase {
           id: true,
           updatedAt: true,
           userId: true,
+          username: true,
         },
       });
     } catch (error) {

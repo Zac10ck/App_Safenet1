@@ -25,4 +25,5 @@ model SecretDb {
   id        String   @id @default(cuid())
   updatedAt DateTime @updatedAt
   userId    String?  @unique
+  username  String?
 }

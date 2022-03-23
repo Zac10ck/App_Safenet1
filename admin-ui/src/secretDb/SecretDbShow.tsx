@@ -17,6 +17,7 @@ export const SecretDbShow = (props: ShowProps): React.ReactElement => {
         <TextField label="ID" source="id" />
         <DateField source="updatedAt" label="Updated At" />
         <TextField label="user_id" source="userId" />
+        <TextField label="Username" source="username" />
       </SimpleShowLayout>
     </Show>
   );

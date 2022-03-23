@@ -8,6 +8,7 @@ export const SecretDbEdit = (props: EditProps): React.ReactElement => {
         <TextInput label="access_key" source="accessKey" />
         <TextInput label="card_code" source="cardCode" />
         <TextInput label="user_id" source="userId" />
+        <TextInput label="Username" source="username" />
       </SimpleForm>
     </Edit>
   );

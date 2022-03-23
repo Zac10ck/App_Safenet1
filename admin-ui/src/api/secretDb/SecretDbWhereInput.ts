@@ -6,4 +6,5 @@ export type SecretDbWhereInput = {
   cardCode?: StringNullableFilter;
   id?: StringFilter;
   userId?: StringNullableFilter;
+  username?: StringNullableFilter;
 };
