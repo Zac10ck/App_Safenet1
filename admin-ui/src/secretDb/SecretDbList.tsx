@@ -18,6 +18,7 @@ export const SecretDbList = (props: ListProps): React.ReactElement => {
         <TextField label="ID" source="id" />
         <DateField source="updatedAt" label="Updated At" />
         <TextField label="user_id" source="userId" />
+        <TextField label="Username" source="username" />
       </Datagrid>
     </List>
   );

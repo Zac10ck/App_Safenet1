@@ -5,4 +5,5 @@ export type SecretDb = {
   id: string;
   updatedAt: Date;
   userId: string | null;
+  username: string | null;
 };

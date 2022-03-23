@@ -7,4 +7,5 @@ export type SecretDbOrderByInput = {
   id?: SortOrder;
   updatedAt?: SortOrder;
   userId?: SortOrder;
+  username?: SortOrder;
 };

@@ -60,5 +60,16 @@ class SecretDbWhereInput {
     nullable: true,
   })
   userId?: StringNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  username?: StringNullableFilter;
 }
 export { SecretDbWhereInput };
